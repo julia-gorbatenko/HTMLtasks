@@ -1,0 +1,57 @@
+.container {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+img.abount-img {
+    padding-top: 30px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+
+}
+
+.contact-text p {
+    margin-bottom: 20px;
+}
+
+.table {
+    box-sizing: border-box;
+    width: 100%;
+    display: table;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.tr {
+    width: 100% border: 1px solid;
+    display: table-row;
+}
+
+.td {
+    /*        float:left;fix for  buggy browsers*/
+    display: table-cell;
+    padding: 15px;
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+
+#first {
+    width: 33%
+}

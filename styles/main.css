@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex: 1 0 auto;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+
+
+/*<--HEADER-->*/
+
+.top-menu {
+  background: #1975d9;
+     top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 0px; 
+/*
+    flex: 0 0 auto;
+    position: absolute;
+    z-index: 100;
+    height: 15hv:
+*/
+    
+*/
+}
+.top-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+    
+}
+
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin: 0px 225px 0px 225px;
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 150px;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: #ffffff; 
+}
+.menu-main li a:hover {color: #0c1f3e;}
+
+.logo {display: inline-block;
+    display: block;
+    position: relative;
+    font-size: 25px;
+    float: left;
+    line-height: 150px;
+    padding-left:225px;
+    font-family: 'Arimo', sans-serif;
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+/*<-- BODY -->*/
+body {
+/*
+display: flex;
+flex-direction: column;
+*/
+    min-height: 100hv;
+    margin:0;
+/*height: calc (100hv-375px);*/
+/*    position:relative;*/
+}
+
+.post {
+margin-left:25%;
+margin-right: 10%;
+}
+ .post p {
+     margin-bottom:20px;
+     display:flex;
+        
+    }
+.post img {
+    padding-top: 30px;
+    width: 80px;
+    display: table-cell;
+    padding-bottom: 20px;
+}
+#avatar {
+    width: 10%;
+    display:flex;
+}
+
+#avatar p {
+    margin-top:55px;
+    margin-left: 30px;
+}
+
+
+/*<-- FOOTER -->*/
+
+.footer-main {
+    background: #0c1f3e;
+    color: #ffffff;
+/*    height: 20hv;*/
+    height: 225px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px; 
+    vertical-align: initial;
+    list-style: none;
+    list-style-type: none;
+    display:flex;
+    position:relative;
+    bottom: 0 !important;
+}
+
+.footer-menu {
+    list-style-type: none;
+    display: list-item;
+    display: flex;
+    padding: 75px 0px 0px 225px;
+    font-size: 14px;
+}
+
+.footer-menu a{
+    text-decoration: none;
+}
+
+.footer-title  {
+    color: #ffffff;
+    font-size: 16px;
+}
+.footer-title b{
+    display: list-item;
+    padding: 0px 250px 20px 0px;
+}
+
+.footer-social:hover{color: #FF7F50;}
+
+.footer-social {
+    display: list-item;
+    margin: 10px 250px 10px 0px;  
+    color: #7FFFD4; 
+}
+
+
+.footer-item  {
+    display: list-item;
+    padding: 10px 250px 10px 0px;  
+    color: #ffffff;
+    display:block;
+    vertical-align: initial;
+}
